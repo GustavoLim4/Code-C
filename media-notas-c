@@ -1,0 +1,38 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+float a = 0;
+float b = 0;
+float c = 0;
+
+
+
+
+int main (){
+
+printf("Digite a nota do primeiro aluno: ");
+scanf("%f", &a);
+
+printf("\n");
+
+printf("Digite a nota do Segundo aluno: ");
+scanf(" %f", &b);
+
+printf("\n");
+
+printf("Digite a nota do Terceiro aluno: ");
+scanf("%f", &c);
+
+printf("\n");
+
+float result;
+result = (a+b+c) /3;
+
+
+printf("A media entre os alunos e: %.1f", result);
+
+printf("\n");
+
+
+return 0;
+}
